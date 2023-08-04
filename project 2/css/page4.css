@@ -1,0 +1,116 @@
+body {
+    margin: 0px;
+}
+
+.c1 {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 500px;
+    background-image: url(../img/hair.jpg);
+
+}
+
+.c2 {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 400px;
+}
+
+.full {
+    width: 1140px;
+    height: 621px;
+    position: relative;
+    display: block;
+    max-width: 100%;
+    background-color: rgb(51, 48, 41);
+    z-index: 2;
+    margin-top: -300px;
+    margin-left: 200px;
+}
+
+.row {
+    display: flex;
+    width: 1140px;
+    height: 621px;
+    max-width: 100%;
+    min-height: fit-content;
+}
+
+.left {
+    position: relative;
+    background-image: url(../img/hair2.jpg);
+    background-size: cover;
+    display: flex;
+    max-height: 100%;
+    max-width: 53.3333%;
+    min-height: 621px;
+    min-width: 53.3333%;
+    object-fit: cover;
+    background-position-x: 50%;
+    background-position-y: 50%;
+}
+
+.right {
+    box-sizing: border-box;
+    background-image: none;
+    color: rgb(255, 255, 255);
+    display: block;
+    max-height: 100%;
+    max-width: 46.6667%;
+    min-width: 621px;
+    min-width: 46.6667%;
+    text-align: center;
+    text-size-adjust: 100%;
+}
+
+.info {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    padding: 50px 30px;
+    max-width: 100%;
+}
+
+.info h3 {
+    position: relative;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    display: block;
+    color: white;
+    letter-spacing: 1px;
+    width: 311.675px;
+    height: 36px;
+    line-height: 36px;
+    margin: 10px 60.1625px;
+}
+
+.icon{
+    display: block;
+
+    text-align: center;
+    margin: 30px 192px 0px 192px;
+}
+img{
+    height: 48px;
+    width:  48px;
+    font-weight: 100;
+}
+
+.info p{
+    width: 432px;
+    height: 180px;
+    text-align: center;
+    position: relative;
+    padding: 0px;
+    margin-top: 46px;
+    line-height: 36px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Open Sans", sans-serif;
+    letter-spacing: normal;
+
+}

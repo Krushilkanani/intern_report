@@ -1,0 +1,155 @@
+body {
+    margin: 0px;
+}
+
+.cnt1 {
+    position: relative;
+    display: block;
+    background-color: #ff6419;
+    width: 100%;
+    height: 300px;
+
+}
+
+.cnt2 {
+    position: relative;
+    display: block;
+    background-color: rgb(167, 164, 157);
+    height: 800px;
+    width: 100%;
+
+}
+
+.img1 {
+    position: relative;
+    background-color: white;
+    width: 1014px;
+    height: 676px;
+    display: block;
+    background-image: url(../img/construct.webp);
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    background-size: cover;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-bottom: 0px;
+    margin-top: -150px;
+    z-index: 3;
+
+}
+
+span {
+    color: rgb(167, 164, 157);
+}
+
+.whitecnt {
+    position: relative;
+    display: block;
+    height: 808px;
+    width: 303px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    z-index: 2;
+    background-color: white;
+    margin: -740px 189.6px 0px 1026.6px;
+}
+
+.info {
+    position: relative;
+    text-size-adjust: 100%;
+    margin-left: 189.6px;
+    margin-right: 744.6px;
+    margin-bottom: 60px;
+    margin-top: -274px;
+    background-color: white;
+    width: 585px;
+    height: 364px;
+    border: none;
+    border-radius: 50px;
+    box-sizing: border-box;
+    color: rgb(17, 17, 17);
+    z-index: 5;
+
+}
+
+.info .info1 {
+    position: relative;
+    text-align: left;
+    width: 585px;
+    height: 364px;
+    box-sizing: border-box;
+    padding: 30px 40px;
+}
+
+.info1 h3 {
+    position: relative;
+    display: block;
+    font-weight: 300;
+    letter-spacing: 2px;
+    padding: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-right: 377.6px;
+    width: 127.4px;
+    height: 28.8px;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+}
+
+.btn1 button {
+    position: relative;
+    font-size: 14px;
+    border-radius: 30px;
+    color: white;
+    letter-spacing: 2px;
+    background-color: #ff6419;
+    padding: 18px 54px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    font-weight: 100;
+}
+
+.btn1 button:hover {
+    background-color: black;
+
+}
+
+.info1 h2 {
+    position: relative;
+    display: block;
+    font-weight: 400;
+    padding: 0px;
+    margin-top: 16px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    line-height: 105.6px;
+    font-size: 96px;
+    text-size-adjust: 100%;
+    /* margin-right: 377.6px; */
+    width: 505px;
+    height: 105.6px;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    color: #ff6419;
+}
+
+.info p {
+    position: relative;
+    box-sizing: border-box;
+    /* width: 163.525px; */
+    height: 25.6px;
+    color: rgb(17, 17, 17);
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    text-size-adjust: 100%;
+    text-align: left;
+    line-height: 25.6px;
+}

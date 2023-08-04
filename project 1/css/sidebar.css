@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    /* background: #000000; */
+}
+
+body {
+    height: 100vh;
+    background: white;
+    font-weight: 600;
+    
+}
+
+#check {
+    display: none;
+}
+
+label #btn{
+    position: relative;
+    right: 22px;
+    cursor: pointer;
+    background: #fff;
+    color: rgb(0, 0, 0);
+    border-radius: 3px;
+}
+
+
+
+
+label #cancle {
+    position: absolute;
+    cursor: pointer;
+    background: #fff;
+    color: rgb(0, 0, 0);
+    border-radius: 3px;
+}
+
+label #btn {
+    position: relative;
+    left: 1030px;
+    top: 0px;
+    font-size: 35px;
+    color: rgb(0 0 0);
+    padding: 6px 12px;
+    /* transition: all 0.5s; */
+}
+
+@media only screen and (max-width: 1335px) {
+    label #btn{
+        position: relative;
+       left: 900px;
+    }
+}
+@media only screen and (max-width: 1210px) {
+    label #btn{
+       left: 850px;
+    }
+}
+@media only screen and (max-width: 1160px) {
+    label #btn{
+       left: 750px;
+    }
+}
+@media only screen and (max-width: 1060px) {
+    label #btn{
+       left: 650px;
+    }
+}
+
+#cancle {
+    z-index: 1111;
+    left: -195px;
+    top: 20px;
+    font-size: 25px;
+    color: #000000;
+    padding: 4px 9px;
+    /* transition: all 0.5s; */
+}
+
+/* active side bar */
+.sidebar {
+    position: absolute;
+    left: -282px;
+    top: 50px;
+    width: 250px;
+    height: 400px;
+    
+    background: #000000;
+    /* box-shadow: -3px -3px 7px #ffffff73,
+        2px 2px 5px rgba(128, 135, 148, 0.562); */
+    /* transition: all 0.5s ease; */
+
+
+}
+
+.sidebar ul li{
+    list-style: none;
+}
+
+#check:checked~.sidebar {
+    left: 0;
+}
+
+#check:checked~label #btn {
+    left: 230px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+#check:checked~label #cancle {
+    left: 250px;
+    top: 50px;
+}
+
+#check:checked~section {
+    margin-left: 250px;
+}
+
+
+.sidebar ul a {
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 56px;
+    font-size: 18px;
+    color: rgb(169, 148, 148);
+    padding-left: 40px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    /* box-shadow: -3px -3px 7px #ffffff,
+        2px 2px 5px rgba(128, 135, 148, 0.562); */
+
+    /* transition: 0.4s; */
+}
+
+.sidebar ul a i {
+    margin-right: 16px;
+}
+
+/* hover effect */
+ul li:hover a {
+
+    color: rgb(255, 255, 255);
+}
